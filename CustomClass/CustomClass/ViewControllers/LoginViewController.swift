@@ -15,7 +15,7 @@ class LoginViewController: UIViewController {
     
     // MARK: - Variables
     var coordinator: LoginCoordinator?
-    
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTapAround()

@@ -1,18 +1,17 @@
 //
-//  CustomRegularWhiteLabel.swift
+//  CustomLargeVioletLabel.swift
 //  CustomClass
 //
-//  Created by Yagnik Bavishi on 04/05/22.
+//  Created by Yagnik Bavishi on 05/05/22.
 //
 
 import Foundation
 import UIKit
 
-/// This Custom Class is used for Regular font 14 size font
+/// This Custom Class is used for Bold font 20 size font
 
-class CustomRegularWhiteLabel: CustomLabel {
+class  CustomLargeVioletLabel: CustomLabel {
     
-    // MARK: - Initialization
     override init(frame: CGRect) {
         super.init(frame: frame)
         initialSetUp()
@@ -25,8 +24,8 @@ class CustomRegularWhiteLabel: CustomLabel {
     
     // MARK: -  Functions
     override func initialSetUp() {
-        self.font = UIFont(name: "Poppins-Regular", size: 14.0)
-        self.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        self.font = UIFont(name: "Poppins-SemiBold", size: 20.0)
+        self.textColor = UIColor(red: 18, green: 12, blue: 69, alpha: 1)
     }
     
 }// End of Class

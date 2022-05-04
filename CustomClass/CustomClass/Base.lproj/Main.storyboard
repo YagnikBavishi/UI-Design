@@ -387,6 +387,9 @@
                                                 </constraints>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Signup"/>
+                                                <connections>
+                                                    <action selector="goToProfileScreen:" destination="1gQ-uJ-98z" eventType="touchUpInside" id="6aN-jr-LUe"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMQ-jR-Fn4">
                                                 <rect key="frame" x="69" y="409" width="276" height="14.333333333333314"/>
@@ -501,7 +504,7 @@
             <size key="intrinsicContentSize" width="16.666666666666668" height="19.666666666666668"/>
         </designable>
         <designable name="JjJ-SD-1sd">
-            <size key="intrinsicContentSize" width="50" height="32"/>
+            <size key="intrinsicContentSize" width="43" height="29"/>
         </designable>
         <designable name="Rp2-bX-04M">
             <size key="intrinsicContentSize" width="190" height="34"/>
@@ -534,7 +537,7 @@
             <size key="intrinsicContentSize" width="161" height="34"/>
         </designable>
         <designable name="uno-s3-5XT">
-            <size key="intrinsicContentSize" width="38" height="32"/>
+            <size key="intrinsicContentSize" width="33" height="29"/>
         </designable>
         <designable name="wnL-cS-e5Y">
             <size key="intrinsicContentSize" width="90" height="17"/>

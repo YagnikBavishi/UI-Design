@@ -27,6 +27,13 @@ class SignupCoordinator: Coordinator {
         navController?.popViewController(animated: true)
     }
     
+    func goToProfileVC() {
+        if let navController = navController {
+            let profileCoordinator = ProfileCoordinator(navController)
+            profileCoordinator.start()
+        }
+    }
+    
     func finish() {
         
     }
