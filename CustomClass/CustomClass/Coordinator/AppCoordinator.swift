@@ -18,7 +18,7 @@ class AppCoordinator: Coordinator {
     
     func start() {
         if let navViewController = navController {
-            let mainCoordinator = LoginCoordinator(navViewController)
+            let mainCoordinator = OnBoardingCoordinator(navViewController)
             mainCoordinator.start()
         }
     }
