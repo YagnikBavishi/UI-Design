@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		36179A3D2820372500101361 /* CustomLinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36179A3C2820372500101361 /* CustomLinkButton.swift */; };
 		362FB81C281F963100411DEB /* CustomBlackLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FB81B281F963100411DEB /* CustomBlackLabel.swift */; };
-		3644750F28227A5600DC590E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644750D28227A5600DC590E /* Constants.swift */; };
 		364F3C4B2820DE4E00508B5B /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C382820DE4E00508B5B /* Poppins-ExtraLight.ttf */; };
 		364F3C4C2820DE4E00508B5B /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C392820DE4E00508B5B /* Poppins-ThinItalic.ttf */; };
 		364F3C4D2820DE4E00508B5B /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C3A2820DE4E00508B5B /* Poppins-ExtraLightItalic.ttf */; };
@@ -29,7 +28,9 @@
 		364F3C5B2820DE4E00508B5B /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C482820DE4E00508B5B /* Poppins-SemiBold.ttf */; };
 		364F3C5C2820DE4E00508B5B /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C492820DE4E00508B5B /* Poppins-Italic.ttf */; };
 		364F3C5D2820DE4E00508B5B /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C4A2820DE4E00508B5B /* Poppins-MediumItalic.ttf */; };
-		3665AB69282179430093E76F /* RegularSizeButtonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665AB68282179430093E76F /* RegularSizeButtonClass.swift */; };
+		36A858F528253D76008E8D24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A858F428253D76008E8D24 /* LoginViewController.swift */; };
+		36B1FFE9282A2DDB00BA93CC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1FFE7282A2DDB00BA93CC /* Constants.swift */; };
+		36B1FFEA282A2DDB00BA93CC /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1FFE8282A2DDB00BA93CC /* UIViewController+Extension.swift */; };
 		36DA8CD4281AC04A00AD7822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA8CD3281AC04A00AD7822 /* AppDelegate.swift */; };
 		36DA8CD6281AC04B00AD7822 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA8CD5281AC04A00AD7822 /* SceneDelegate.swift */; };
 		36DA8CDB281AC04B00AD7822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DA8CD9281AC04B00AD7822 /* Main.storyboard */; };
@@ -38,12 +39,15 @@
 		36DA8CE8281AC6B700AD7822 /* BaseButtonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA8CE7281AC6B700AD7822 /* BaseButtonClass.swift */; };
 		36DA8CEB281AE1A900AD7822 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA8CEA281AE1A900AD7822 /* CustomTextField.swift */; };
 		36DA8CED281AE51900AD7822 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA8CEC281AE51900AD7822 /* CustomLabel.swift */; };
+		9EFEEDB0071B8CE19D58246B /* Pods_CustomClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B60494A1CB8E535209E030 /* Pods_CustomClass.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07B60494A1CB8E535209E030 /* Pods_CustomClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		133CAFD7B8D675AB475A7F7A /* Pods-CustomClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomClass.debug.xcconfig"; path = "Target Support Files/Pods-CustomClass/Pods-CustomClass.debug.xcconfig"; sourceTree = "<group>"; };
+		2C99381764686A38D893072C /* Pods-CustomClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomClass.release.xcconfig"; path = "Target Support Files/Pods-CustomClass/Pods-CustomClass.release.xcconfig"; sourceTree = "<group>"; };
 		36179A3C2820372500101361 /* CustomLinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLinkButton.swift; sourceTree = "<group>"; };
 		362FB81B281F963100411DEB /* CustomBlackLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlackLabel.swift; sourceTree = "<group>"; };
-		3644750D28227A5600DC590E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		364F3C382820DE4E00508B5B /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		364F3C392820DE4E00508B5B /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		364F3C3A2820DE4E00508B5B /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -63,7 +67,9 @@
 		364F3C482820DE4E00508B5B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		364F3C492820DE4E00508B5B /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		364F3C4A2820DE4E00508B5B /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
-		3665AB68282179430093E76F /* RegularSizeButtonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularSizeButtonClass.swift; sourceTree = "<group>"; };
+		36A858F428253D76008E8D24 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		36B1FFE7282A2DDB00BA93CC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		36B1FFE8282A2DDB00BA93CC /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		36DA8CD0281AC04A00AD7822 /* CustomClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DA8CD3281AC04A00AD7822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36DA8CD5281AC04A00AD7822 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFEEDB0071B8CE19D58246B /* Pods_CustomClass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +99,6 @@
 			children = (
 				36DA8CE7281AC6B700AD7822 /* BaseButtonClass.swift */,
 				36179A3C2820372500101361 /* CustomLinkButton.swift */,
-				3665AB68282179430093E76F /* RegularSizeButtonClass.swift */,
 			);
 			path = CustomButton;
 			sourceTree = "<group>";
@@ -112,14 +118,6 @@
 				362FB81B281F963100411DEB /* CustomBlackLabel.swift */,
 			);
 			path = CustomLabel;
-			sourceTree = "<group>";
-		};
-		3644750C28227A5600DC590E /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				3644750D28227A5600DC590E /* Constants.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		364F3C372820DE4E00508B5B /* Poppins */ = {
@@ -148,11 +146,30 @@
 			path = Poppins;
 			sourceTree = "<group>";
 		};
+		36A858F328253D76008E8D24 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				36A858F428253D76008E8D24 /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		36B1FFE6282A2DDB00BA93CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				36B1FFE7282A2DDB00BA93CC /* Constants.swift */,
+				36B1FFE8282A2DDB00BA93CC /* UIViewController+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		36DA8CC7281AC04A00AD7822 = {
 			isa = PBXGroup;
 			children = (
 				36DA8CD2281AC04A00AD7822 /* CustomClass */,
 				36DA8CD1281AC04A00AD7822 /* Products */,
+				BC4927FACFCDF5A39E014EFB /* Pods */,
+				47333F838CC2813939923ED6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				364F3C372820DE4E00508B5B /* Poppins */,
+				36B1FFE6282A2DDB00BA93CC /* Utils */,
+				36A858F328253D76008E8D24 /* ViewControllers */,
 				36DA8CE9281ACAA100AD7822 /* Custom Control */,
 				36DA8CD3281AC04A00AD7822 /* AppDelegate.swift */,
 				36DA8CD5281AC04A00AD7822 /* SceneDelegate.swift */,
@@ -182,12 +201,28 @@
 		36DA8CE9281ACAA100AD7822 /* Custom Control */ = {
 			isa = PBXGroup;
 			children = (
-				3644750C28227A5600DC590E /* Utils */,
 				36179A3E28203CB200101361 /* CustomButton */,
 				36179A3F28203CE100101361 /* CustomTextField */,
 				36179A4028203CF800101361 /* CustomLabel */,
 			);
 			path = "Custom Control";
+			sourceTree = "<group>";
+		};
+		47333F838CC2813939923ED6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B60494A1CB8E535209E030 /* Pods_CustomClass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC4927FACFCDF5A39E014EFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				133CAFD7B8D675AB475A7F7A /* Pods-CustomClass.debug.xcconfig */,
+				2C99381764686A38D893072C /* Pods-CustomClass.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36DA8CE4281AC04C00AD7822 /* Build configuration list for PBXNativeTarget "CustomClass" */;
 			buildPhases = (
+				3710B2FF027FAF4CFFC4CB1F /* [CP] Check Pods Manifest.lock */,
 				36DA8CCC281AC04A00AD7822 /* Sources */,
 				36DA8CCD281AC04A00AD7822 /* Frameworks */,
 				36DA8CCE281AC04A00AD7822 /* Resources */,
+				B9D633FE0D9E423C277891FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,6 +312,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3710B2FF027FAF4CFFC4CB1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomClass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D633FE0D9E423C277891FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomClass/Pods-CustomClass-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomClass/Pods-CustomClass-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomClass/Pods-CustomClass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36DA8CCC281AC04A00AD7822 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -285,10 +364,11 @@
 				36DA8CED281AE51900AD7822 /* CustomLabel.swift in Sources */,
 				36179A3D2820372500101361 /* CustomLinkButton.swift in Sources */,
 				36DA8CD4281AC04A00AD7822 /* AppDelegate.swift in Sources */,
-				3665AB69282179430093E76F /* RegularSizeButtonClass.swift in Sources */,
 				36DA8CD6281AC04B00AD7822 /* SceneDelegate.swift in Sources */,
 				36DA8CEB281AE1A900AD7822 /* CustomTextField.swift in Sources */,
-				3644750F28227A5600DC590E /* Constants.swift in Sources */,
+				36A858F528253D76008E8D24 /* LoginViewController.swift in Sources */,
+				36B1FFEA282A2DDB00BA93CC /* UIViewController+Extension.swift in Sources */,
+				36B1FFE9282A2DDB00BA93CC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +512,7 @@
 		};
 		36DA8CE5281AC04C00AD7822 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133CAFD7B8D675AB475A7F7A /* Pods-CustomClass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +540,7 @@
 		};
 		36DA8CE6281AC04C00AD7822 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C99381764686A38D893072C /* Pods-CustomClass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
