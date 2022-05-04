@@ -28,7 +28,13 @@
 		364F3C5B2820DE4E00508B5B /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C482820DE4E00508B5B /* Poppins-SemiBold.ttf */; };
 		364F3C5C2820DE4E00508B5B /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C492820DE4E00508B5B /* Poppins-Italic.ttf */; };
 		364F3C5D2820DE4E00508B5B /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C4A2820DE4E00508B5B /* Poppins-MediumItalic.ttf */; };
+		367C5276282ABACC00FA4250 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C5275282ABACC00FA4250 /* Coordinator.swift */; };
+		367C5278282ABAEA00FA4250 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C5277282ABAEA00FA4250 /* AppCoordinator.swift */; };
+		367C527A282ABB1F00FA4250 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C5279282ABB1F00FA4250 /* LoginCoordinator.swift */; };
+		367C527C282ABC1A00FA4250 /* SignupCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C527B282ABC1A00FA4250 /* SignupCoordinator.swift */; };
+		368C8C542825453500B92DA4 /* RegularSizeH5ButtonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368C8C532825453500B92DA4 /* RegularSizeH5ButtonClass.swift */; };
 		36A858F528253D76008E8D24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A858F428253D76008E8D24 /* LoginViewController.swift */; };
+		36A858FC28254348008E8D24 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A858FB28254348008E8D24 /* SignupViewController.swift */; };
 		36B1FFE9282A2DDB00BA93CC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1FFE7282A2DDB00BA93CC /* Constants.swift */; };
 		36B1FFEA282A2DDB00BA93CC /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1FFE8282A2DDB00BA93CC /* UIViewController+Extension.swift */; };
 		36DA8CD4281AC04A00AD7822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA8CD3281AC04A00AD7822 /* AppDelegate.swift */; };
@@ -67,7 +73,13 @@
 		364F3C482820DE4E00508B5B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		364F3C492820DE4E00508B5B /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		364F3C4A2820DE4E00508B5B /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		367C5275282ABACC00FA4250 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		367C5277282ABAEA00FA4250 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		367C5279282ABB1F00FA4250 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		367C527B282ABC1A00FA4250 /* SignupCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupCoordinator.swift; sourceTree = "<group>"; };
+		368C8C532825453500B92DA4 /* RegularSizeH5ButtonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularSizeH5ButtonClass.swift; sourceTree = "<group>"; };
 		36A858F428253D76008E8D24 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		36A858FB28254348008E8D24 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		36B1FFE7282A2DDB00BA93CC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		36B1FFE8282A2DDB00BA93CC /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		36DA8CD0281AC04A00AD7822 /* CustomClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +111,7 @@
 			children = (
 				36DA8CE7281AC6B700AD7822 /* BaseButtonClass.swift */,
 				36179A3C2820372500101361 /* CustomLinkButton.swift */,
+				368C8C532825453500B92DA4 /* RegularSizeH5ButtonClass.swift */,
 			);
 			path = CustomButton;
 			sourceTree = "<group>";
@@ -146,10 +159,22 @@
 			path = Poppins;
 			sourceTree = "<group>";
 		};
+		367C5274282ABAB100FA4250 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				367C5275282ABACC00FA4250 /* Coordinator.swift */,
+				367C5277282ABAEA00FA4250 /* AppCoordinator.swift */,
+				367C5279282ABB1F00FA4250 /* LoginCoordinator.swift */,
+				367C527B282ABC1A00FA4250 /* SignupCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		36A858F328253D76008E8D24 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				36A858F428253D76008E8D24 /* LoginViewController.swift */,
+				36A858FB28254348008E8D24 /* SignupViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -184,6 +209,7 @@
 		36DA8CD2281AC04A00AD7822 /* CustomClass */ = {
 			isa = PBXGroup;
 			children = (
+				367C5274282ABAB100FA4250 /* Coordinator */,
 				364F3C372820DE4E00508B5B /* Poppins */,
 				36B1FFE6282A2DDB00BA93CC /* Utils */,
 				36A858F328253D76008E8D24 /* ViewControllers */,
@@ -363,12 +389,19 @@
 				36DA8CE8281AC6B700AD7822 /* BaseButtonClass.swift in Sources */,
 				36DA8CED281AE51900AD7822 /* CustomLabel.swift in Sources */,
 				36179A3D2820372500101361 /* CustomLinkButton.swift in Sources */,
+				36A858FC28254348008E8D24 /* SignupViewController.swift in Sources */,
 				36DA8CD4281AC04A00AD7822 /* AppDelegate.swift in Sources */,
+				367C5276282ABACC00FA4250 /* Coordinator.swift in Sources */,
 				36DA8CD6281AC04B00AD7822 /* SceneDelegate.swift in Sources */,
 				36DA8CEB281AE1A900AD7822 /* CustomTextField.swift in Sources */,
 				36A858F528253D76008E8D24 /* LoginViewController.swift in Sources */,
 				36B1FFEA282A2DDB00BA93CC /* UIViewController+Extension.swift in Sources */,
+				367C527C282ABC1A00FA4250 /* SignupCoordinator.swift in Sources */,
 				36B1FFE9282A2DDB00BA93CC /* Constants.swift in Sources */,
+				367C5278282ABAEA00FA4250 /* AppCoordinator.swift in Sources */,
+				368C8C542825453500B92DA4 /* RegularSizeH5ButtonClass.swift in Sources */,
+				367C527A282ABB1F00FA4250 /* LoginCoordinator.swift in Sources */,
+				36A858F528253D76008E8D24 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
