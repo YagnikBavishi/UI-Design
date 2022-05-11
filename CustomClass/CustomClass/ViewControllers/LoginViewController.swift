@@ -13,9 +13,16 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var txtEmail: CustomTextField!
     @IBOutlet weak var txtPassword: CustomTextField!
     
+    // MARK: - Variables
+    var coordinator: LoginCoordinator?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTapAround()
+    }
+
+    @IBAction func goSignUpScreen(_ sender: UIButton) {
+        coordinator?.startSignupViewController()
     }
     
 }// End of class
