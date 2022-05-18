@@ -32,7 +32,7 @@ class OnbordingViewController: UIViewController {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: animated)
     }
-    
+
     // MARK: - Actions
     @IBAction func pageControlAction(_ sender: UIPageControl) {
         let pageControl = sender
@@ -47,7 +47,7 @@ class OnbordingViewController: UIViewController {
 
 //MARK: - UICollectionViewDelegateFlowLayout
 extension OnbordingViewController: UICollectionViewDelegateFlowLayout {
-    
+
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout,
                          sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: UIScreen.main.bounds.width, height: collectionView.frame.height)

@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360983F2282381D100FAB914 /* ProfileScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360983F1282381D100FAB914 /* ProfileScreen.storyboard */; };
+		36152EDD2823A3A600CB635E /* CustomMintGreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36152EDC2823A3A600CB635E /* CustomMintGreenButton.swift */; };
+		36152EDF2823A56000CB635E /* CircleImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36152EDE2823A56000CB635E /* CircleImageButton.swift */; };
+		36152EE62823AEE500CB635E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36152EE42823AEE500CB635E /* TableViewCell.swift */; };
+		36152EE72823AEE500CB635E /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36152EE52823AEE500CB635E /* TableViewCell.xib */; };
+		36179A3B2820354900101361 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36179A3A2820354900101361 /* UIViewController+Extension.swift */; };
 		36179A3D2820372500101361 /* CustomLinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36179A3C2820372500101361 /* CustomLinkButton.swift */; };
+		3629755F28229555009F6775 /* LargeSizeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629755E28229555009F6775 /* LargeSizeLabel.swift */; };
+		362BC0802821045300C35BC4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362BC07F2821045300C35BC4 /* Constants.swift */; };
 		362FB81C281F963100411DEB /* CustomBlackLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362FB81B281F963100411DEB /* CustomBlackLabel.swift */; };
+		363BBFCA2829601A004021A7 /* CustomRegularLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363BBFC92829601A004021A7 /* CustomRegularLabel.swift */; };
+		3646DD832833713600F4FDB5 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3646DD822833713600F4FDB5 /* ProfileCoordinator.swift */; };
 		364F3C4B2820DE4E00508B5B /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C382820DE4E00508B5B /* Poppins-ExtraLight.ttf */; };
 		364F3C4C2820DE4E00508B5B /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C392820DE4E00508B5B /* Poppins-ThinItalic.ttf */; };
 		364F3C4D2820DE4E00508B5B /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364F3C3A2820DE4E00508B5B /* Poppins-ExtraLightItalic.ttf */; };
@@ -32,11 +42,12 @@
 		367C5278282ABAEA00FA4250 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C5277282ABAEA00FA4250 /* AppCoordinator.swift */; };
 		367C527A282ABB1F00FA4250 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C5279282ABB1F00FA4250 /* LoginCoordinator.swift */; };
 		367C527C282ABC1A00FA4250 /* SignupCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C527B282ABC1A00FA4250 /* SignupCoordinator.swift */; };
+		368450C22823842C0059D7AD /* CustomSemiboldH4Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368450C12823842C0059D7AD /* CustomSemiboldH4Size.swift */; };
+		368450C428238D720059D7AD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368450C328238D720059D7AD /* ProfileViewController.swift */; };
+		368450C62823965E0059D7AD /* CustomLargeVioletLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368450C52823965E0059D7AD /* CustomLargeVioletLabel.swift */; };
 		368C8C542825453500B92DA4 /* RegularSizeH5ButtonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368C8C532825453500B92DA4 /* RegularSizeH5ButtonClass.swift */; };
 		36A858F528253D76008E8D24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A858F428253D76008E8D24 /* LoginViewController.swift */; };
 		36A858FC28254348008E8D24 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A858FB28254348008E8D24 /* SignupViewController.swift */; };
-		36B1FFE9282A2DDB00BA93CC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1FFE7282A2DDB00BA93CC /* Constants.swift */; };
-		36C43385282E1F1C0010338D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C43384282E1F1C0010338D /* UIViewController+Extension.swift */; };
 		36C43387282E20260010338D /* OnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C43386282E20260010338D /* OnBoardingCoordinator.swift */; };
 		36DA8CD4281AC04A00AD7822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA8CD3281AC04A00AD7822 /* AppDelegate.swift */; };
 		36DA8CD6281AC04B00AD7822 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA8CD5281AC04A00AD7822 /* SceneDelegate.swift */; };
@@ -46,6 +57,7 @@
 		36DA8CE8281AC6B700AD7822 /* BaseButtonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA8CE7281AC6B700AD7822 /* BaseButtonClass.swift */; };
 		36DA8CEB281AE1A900AD7822 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA8CEA281AE1A900AD7822 /* CustomTextField.swift */; };
 		36DA8CED281AE51900AD7822 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA8CEC281AE51900AD7822 /* CustomLabel.swift */; };
+		36DB12D8282296FC00368758 /* CustomRegularWhiteLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB12D7282296FC00368758 /* CustomRegularWhiteLabel.swift */; };
 		36E7B58A2828D80F007DDA08 /* OnbordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E7B5862828D80F007DDA08 /* OnbordingViewController.swift */; };
 		36E7B58B2828D80F007DDA08 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E7B5872828D80F007DDA08 /* OnboardingModel.swift */; };
 		36E7B58C2828D80F007DDA08 /* OnbordingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E7B5882828D80F007DDA08 /* OnbordingScreen.storyboard */; };
@@ -59,8 +71,18 @@
 		07B60494A1CB8E535209E030 /* Pods_CustomClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		133CAFD7B8D675AB475A7F7A /* Pods-CustomClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomClass.debug.xcconfig"; path = "Target Support Files/Pods-CustomClass/Pods-CustomClass.debug.xcconfig"; sourceTree = "<group>"; };
 		2C99381764686A38D893072C /* Pods-CustomClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomClass.release.xcconfig"; path = "Target Support Files/Pods-CustomClass/Pods-CustomClass.release.xcconfig"; sourceTree = "<group>"; };
+		360983F1282381D100FAB914 /* ProfileScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileScreen.storyboard; sourceTree = "<group>"; };
+		36152EDC2823A3A600CB635E /* CustomMintGreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMintGreenButton.swift; sourceTree = "<group>"; };
+		36152EDE2823A56000CB635E /* CircleImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageButton.swift; sourceTree = "<group>"; };
+		36152EE42823AEE500CB635E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		36152EE52823AEE500CB635E /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		36179A3A2820354900101361 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		36179A3C2820372500101361 /* CustomLinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLinkButton.swift; sourceTree = "<group>"; };
+		3629755E28229555009F6775 /* LargeSizeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeSizeLabel.swift; sourceTree = "<group>"; };
+		362BC07F2821045300C35BC4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		362FB81B281F963100411DEB /* CustomBlackLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlackLabel.swift; sourceTree = "<group>"; };
+		363BBFC92829601A004021A7 /* CustomRegularLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRegularLabel.swift; sourceTree = "<group>"; };
+		3646DD822833713600F4FDB5 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		364F3C382820DE4E00508B5B /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		364F3C392820DE4E00508B5B /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		364F3C3A2820DE4E00508B5B /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -84,13 +106,14 @@
 		367C5277282ABAEA00FA4250 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		367C5279282ABB1F00FA4250 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		367C527B282ABC1A00FA4250 /* SignupCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupCoordinator.swift; sourceTree = "<group>"; };
+		368450C12823842C0059D7AD /* CustomSemiboldH4Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSemiboldH4Size.swift; sourceTree = "<group>"; };
+		368450C328238D720059D7AD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		368450C52823965E0059D7AD /* CustomLargeVioletLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLargeVioletLabel.swift; sourceTree = "<group>"; };
 		368C8C532825453500B92DA4 /* RegularSizeH5ButtonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularSizeH5ButtonClass.swift; sourceTree = "<group>"; };
 		36A858F428253D76008E8D24 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		36A858F728253D94008E8D24 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		36A858F928253DFF008E8D24 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		36A858FB28254348008E8D24 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		36B1FFE7282A2DDB00BA93CC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		36C43384282E1F1C0010338D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		36C43386282E20260010338D /* OnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinator.swift; sourceTree = "<group>"; };
 		36DA8CD0281AC04A00AD7822 /* CustomClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DA8CD3281AC04A00AD7822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,12 +125,14 @@
 		36DA8CE7281AC6B700AD7822 /* BaseButtonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonClass.swift; sourceTree = "<group>"; };
 		36DA8CEA281AE1A900AD7822 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		36DA8CEC281AE51900AD7822 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		36DB12D7282296FC00368758 /* CustomRegularWhiteLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRegularWhiteLabel.swift; sourceTree = "<group>"; };
 		36E7B5862828D80F007DDA08 /* OnbordingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnbordingViewController.swift; sourceTree = "<group>"; };
 		36E7B5872828D80F007DDA08 /* OnboardingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		36E7B5882828D80F007DDA08 /* OnbordingScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnbordingScreen.storyboard; sourceTree = "<group>"; };
 		36E7B5892828D80F007DDA08 /* OnbordingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnbordingCollectionViewCell.swift; sourceTree = "<group>"; };
 		36E7B58E2828D827007DDA08 /* CustomRegularWhiteLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRegularWhiteLabel.swift; sourceTree = "<group>"; };
 		36E7B58F2828D827007DDA08 /* LargeSizeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeSizeLabel.swift; sourceTree = "<group>"; };
+		36FE07292824E64D003577E8 /* RegularSizeButtonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularSizeButtonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +147,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36179A392820353000101361 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				36179A3A2820354900101361 /* UIViewController+Extension.swift */,
+				362BC07F2821045300C35BC4 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		36179A3E28203CB200101361 /* CustomButton */ = {
 			isa = PBXGroup;
 			children = (
 				36DA8CE7281AC6B700AD7822 /* BaseButtonClass.swift */,
 				36179A3C2820372500101361 /* CustomLinkButton.swift */,
 				368C8C532825453500B92DA4 /* RegularSizeH5ButtonClass.swift */,
+				36152EDC2823A3A600CB635E /* CustomMintGreenButton.swift */,
+				36152EDE2823A56000CB635E /* CircleImageButton.swift */,
+				36FE07292824E64D003577E8 /* RegularSizeButtonClass.swift */,
 			);
 			path = CustomButton;
 			sourceTree = "<group>";
@@ -147,6 +184,11 @@
 				36E7B58F2828D827007DDA08 /* LargeSizeLabel.swift */,
 				36DA8CEC281AE51900AD7822 /* CustomLabel.swift */,
 				362FB81B281F963100411DEB /* CustomBlackLabel.swift */,
+				3629755E28229555009F6775 /* LargeSizeLabel.swift */,
+				36DB12D7282296FC00368758 /* CustomRegularWhiteLabel.swift */,
+				368450C12823842C0059D7AD /* CustomSemiboldH4Size.swift */,
+				368450C52823965E0059D7AD /* CustomLargeVioletLabel.swift */,
+				363BBFC92829601A004021A7 /* CustomRegularLabel.swift */,
 			);
 			path = CustomLabel;
 			sourceTree = "<group>";
@@ -185,8 +227,20 @@
 				367C5279282ABB1F00FA4250 /* LoginCoordinator.swift */,
 				367C527B282ABC1A00FA4250 /* SignupCoordinator.swift */,
 				36C43386282E20260010338D /* OnBoardingCoordinator.swift */,
+				3646DD822833713600F4FDB5 /* ProfileCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		368C8C55282549B800B92DA4 /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				368450C328238D720059D7AD /* ProfileViewController.swift */,
+				36152EE42823AEE500CB635E /* TableViewCell.swift */,
+				36152EE52823AEE500CB635E /* TableViewCell.xib */,
+				360983F1282381D100FAB914 /* ProfileScreen.storyboard */,
+			);
+			path = ProfileScreen;
 			sourceTree = "<group>";
 		};
 		36A858F328253D76008E8D24 /* ViewControllers */ = {
@@ -196,15 +250,6 @@
 				36A858FB28254348008E8D24 /* SignupViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		36B1FFE6282A2DDB00BA93CC /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				36C43384282E1F1C0010338D /* UIViewController+Extension.swift */,
-				36B1FFE7282A2DDB00BA93CC /* Constants.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		36C43383282E1F0E0010338D /* Recovered References */ = {
@@ -239,10 +284,11 @@
 			isa = PBXGroup;
 			children = (
 				367C5274282ABAB100FA4250 /* Coordinator */,
-				36B1FFE6282A2DDB00BA93CC /* Utils */,
 				36E7B5852828D80F007DDA08 /* OnboardingScreen */,
-				364F3C372820DE4E00508B5B /* Poppins */,
 				36A858F328253D76008E8D24 /* ViewControllers */,
+				368C8C55282549B800B92DA4 /* ProfileScreen */,
+				364F3C372820DE4E00508B5B /* Poppins */,
+				36179A392820353000101361 /* Utils */,
 				36DA8CE9281ACAA100AD7822 /* Custom Control */,
 				36DA8CD3281AC04A00AD7822 /* AppDelegate.swift */,
 				36DA8CD5281AC04A00AD7822 /* SceneDelegate.swift */,
@@ -303,7 +349,7 @@
 				36DA8CCC281AC04A00AD7822 /* Sources */,
 				36DA8CCD281AC04A00AD7822 /* Frameworks */,
 				36DA8CCE281AC04A00AD7822 /* Resources */,
-				B9D633FE0D9E423C277891FE /* [CP] Embed Pods Frameworks */,
+				882AABEE9B421EA81B2FC0C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -359,6 +405,8 @@
 				364F3C542820DE4E00508B5B /* Poppins-BlackItalic.ttf in Resources */,
 				364F3C4B2820DE4E00508B5B /* Poppins-ExtraLight.ttf in Resources */,
 				36E7B58C2828D80F007DDA08 /* OnbordingScreen.storyboard in Resources */,
+				360983F2282381D100FAB914 /* ProfileScreen.storyboard in Resources */,
+				364F3C4B2820DE4E00508B5B /* Poppins-ExtraLight.ttf in Resources */,
 				364F3C5B2820DE4E00508B5B /* Poppins-SemiBold.ttf in Resources */,
 				364F3C4E2820DE4E00508B5B /* Poppins-BoldItalic.ttf in Resources */,
 				364F3C4F2820DE4E00508B5B /* Poppins-Light.ttf in Resources */,
@@ -367,6 +415,7 @@
 				364F3C532820DE4E00508B5B /* Poppins-ExtraBold.ttf in Resources */,
 				364F3C572820DE4E00508B5B /* Poppins-LightItalic.ttf in Resources */,
 				36DA8CE0281AC04B00AD7822 /* LaunchScreen.storyboard in Resources */,
+				36152EE72823AEE500CB635E /* TableViewCell.xib in Resources */,
 				364F3C512820DE4E00508B5B /* Poppins-SemiBoldItalic.ttf in Resources */,
 				364F3C562820DE4E00508B5B /* Poppins-Regular.ttf in Resources */,
 				364F3C522820DE4E00508B5B /* Poppins-ExtraBoldItalic.ttf in Resources */,
@@ -403,7 +452,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B9D633FE0D9E423C277891FE /* [CP] Embed Pods Frameworks */ = {
+		882AABEE9B421EA81B2FC0C8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -427,9 +476,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				363BBFCA2829601A004021A7 /* CustomRegularLabel.swift in Sources */,
 				362FB81C281F963100411DEB /* CustomBlackLabel.swift in Sources */,
 				36DA8CE8281AC6B700AD7822 /* BaseButtonClass.swift in Sources */,
-				36C43385282E1F1C0010338D /* UIViewController+Extension.swift in Sources */,
+				36DA8CED281AE51900AD7822 /* CustomLabel.swift in Sources */,
+				36179A3D2820372500101361 /* CustomLinkButton.swift in Sources */,
+				36A858FC28254348008E8D24 /* SignupViewController.swift in Sources */,
+				36DA8CD4281AC04A00AD7822 /* AppDelegate.swift in Sources */,
+				36DA8CD6281AC04B00AD7822 /* SceneDelegate.swift in Sources */,
+				36DA8CEB281AE1A900AD7822 /* CustomTextField.swift in Sources */,
+				368C8C542825453500B92DA4 /* RegularSizeH5ButtonClass.swift in Sources */,
+				36E7B58B2828D80F007DDA08 /* OnboardingModel.swift in Sources */,
+				36A858F528253D76008E8D24 /* LoginViewController.swift in Sources */,
+				36E7B58A2828D80F007DDA08 /* OnbordingViewController.swift in Sources */,
+				36E7B58D2828D80F007DDA08 /* OnbordingCollectionViewCell.swift in Sources */,
+				368450C22823842C0059D7AD /* CustomSemiboldH4Size.swift in Sources */,
+				362FB81C281F963100411DEB /* CustomBlackLabel.swift in Sources */,
+				36DA8CE8281AC6B700AD7822 /* BaseButtonClass.swift in Sources */,
+				3646DD832833713600F4FDB5 /* ProfileCoordinator.swift in Sources */,
+				368450C62823965E0059D7AD /* CustomLargeVioletLabel.swift in Sources */,
+				368450C428238D720059D7AD /* ProfileViewController.swift in Sources */,
+				36179A3B2820354900101361 /* UIViewController+Extension.swift in Sources */,
+				3629755F28229555009F6775 /* LargeSizeLabel.swift in Sources */,
+				36152EE62823AEE500CB635E /* TableViewCell.swift in Sources */,
 				36DA8CED281AE51900AD7822 /* CustomLabel.swift in Sources */,
 				36179A3D2820372500101361 /* CustomLinkButton.swift in Sources */,
 				36A858FC28254348008E8D24 /* SignupViewController.swift in Sources */,
@@ -438,11 +507,8 @@
 				36DA8CD6281AC04B00AD7822 /* SceneDelegate.swift in Sources */,
 				36DA8CEB281AE1A900AD7822 /* CustomTextField.swift in Sources */,
 				36A858F528253D76008E8D24 /* LoginViewController.swift in Sources */,
-				36B1FFEA282A2DDB00BA93CC /* UIViewController+Extension.swift in Sources */,
 				367C527C282ABC1A00FA4250 /* SignupCoordinator.swift in Sources */,
-				36B1FFE9282A2DDB00BA93CC /* Constants.swift in Sources */,
 				367C527C282ABC1A00FA4250 /* SignupCoordinator.swift in Sources */,
-				36B1FFE9282A2DDB00BA93CC /* Constants.swift in Sources */,
 				36C43387282E20260010338D /* OnBoardingCoordinator.swift in Sources */,
 				367C5278282ABAEA00FA4250 /* AppCoordinator.swift in Sources */,
 				368C8C542825453500B92DA4 /* RegularSizeH5ButtonClass.swift in Sources */,
@@ -450,7 +516,11 @@
 				36A858F528253D76008E8D24 /* LoginViewController.swift in Sources */,
 				36E7B5912828D827007DDA08 /* LargeSizeLabel.swift in Sources */,
 				36DA8CD4281AC04A00AD7822 /* AppDelegate.swift in Sources */,
+				362BC0802821045300C35BC4 /* Constants.swift in Sources */,
 				36DA8CD6281AC04B00AD7822 /* SceneDelegate.swift in Sources */,
+				36DB12D8282296FC00368758 /* CustomRegularWhiteLabel.swift in Sources */,
+				36152EDF2823A56000CB635E /* CircleImageButton.swift in Sources */,
+				36152EDD2823A3A600CB635E /* CustomMintGreenButton.swift in Sources */,
 				36DA8CEB281AE1A900AD7822 /* CustomTextField.swift in Sources */,
 				368C8C542825453500B92DA4 /* RegularSizeH5ButtonClass.swift in Sources */,
 				36E7B58B2828D80F007DDA08 /* OnboardingModel.swift in Sources */,
@@ -612,6 +682,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -640,6 +711,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

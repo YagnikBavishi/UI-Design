@@ -45,6 +45,10 @@ class SignupViewController: UIViewController {
         coordinator?.backToLoginVC()
     }
     
+    @IBAction func goToProfileScreen(_ sender: Any) {
+        coordinator?.goToProfileVC()
+    }
+    
 }// End of class
 
 // MARK: - UITextFieldDelegate

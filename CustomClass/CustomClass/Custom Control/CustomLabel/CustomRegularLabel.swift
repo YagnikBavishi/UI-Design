@@ -1,16 +1,16 @@
 //
-//  CustomRegularWhiteLabel.swift
+//  CustomRegularLabel.swift
 //  CustomClass
 //
-//  Created by Yagnik Bavishi on 04/05/22.
+//  Created by Yagnik Bavishi on 09/05/22.
 //
 
 import Foundation
 import UIKit
 
-/// This Custom Class is used for Regular font 14 size font
+/// This Custom Class is used for regular  12 size font
 
-class CustomRegularWhiteLabel: CustomLabel {
+class  CustomRegularLabel: CustomLabel {
     
     // MARK: - Initialization
     override init(frame: CGRect) {
@@ -25,8 +25,8 @@ class CustomRegularWhiteLabel: CustomLabel {
     
     // MARK: -  Functions
     override func initialSetUp() {
-        self.font = UIFont(name: "Poppins-Regular", size: 14.0)
-        self.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        self.font = UIFont(name: "Poppins-Regular", size: 12.0)
+        self.textColor = UIColor(red: 0.494, green: 0.482, blue: 0.592, alpha: 1)
     }
     
 }// End of Class
