@@ -37,7 +37,7 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WIp-oF-LKz" customClass="CustomTextField" customModule="CustomClass" customModuleProvider="target">
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="eve.holt@reqres.in" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WIp-oF-LKz" customClass="CustomTextField" customModule="CustomClass" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="27" width="315" height="50"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="50" id="mAv-uV-slt"/>
@@ -94,6 +94,9 @@
                                                 </constraints>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Login"/>
+                                                <connections>
+                                                    <action selector="btnLoginAction:" destination="Qda-kS-X3H" eventType="touchUpInside" id="cG2-rq-p8I"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecS-xI-b6z" customClass="CustomLabel" customModule="CustomClass" customModuleProvider="target">
                                                 <rect key="frame" x="30" y="529" width="315" height="19.666666666666629"/>
@@ -513,7 +516,7 @@
             <size key="intrinsicContentSize" width="58.333333333333336" height="17"/>
         </designable>
         <designable name="WIp-oF-LKz">
-            <size key="intrinsicContentSize" width="161" height="34"/>
+            <size key="intrinsicContentSize" width="209" height="34"/>
         </designable>
         <designable name="ast-fb-Mnv">
             <size key="intrinsicContentSize" width="123" height="30"/>
