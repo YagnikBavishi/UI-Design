@@ -12,7 +12,6 @@ class LoginViewController: UIViewController {
     // MARK: - Outlets
     @IBOutlet weak var txtEmail: CustomTextField!
     @IBOutlet weak var txtPassword: CustomTextField!
-    let viewModel = LoginViewModel()
     
     // MARK: - Variables
     var coordinator: LoginCoordinator?
@@ -38,25 +37,18 @@ class LoginViewController: UIViewController {
         guard let json = try? JSONEncoder().encode(user) else {
             return 
         }
-       // viewModel.loginRequest(url: "https://reqres.in/api/login", method: "POST", body: json, decodingType: ResponseToken.self)
         URLSessionRequest.urlSessionRequest(url: "https://reqres.in/api/login", method: "POST", body: json, decodingType: ResponseToken.self) { data in
-
             switch data {
             case .success(_):
-                print(data)
-            case .failure(_):
-                print(Error.self)
+                DispatchQueue.main.async {
+                    self.alerts(title: "Success", message: "")
+                }
+            case .failure(let errorMessage):
+                DispatchQueue.main.async {
+                    self.alerts(title: "Error", message: "\(errorMessage.error)")
+                }
             }
-            
         }
-//        { data, error in
-//            if let responseData = data {
-//                print(responseData)
-//               // print("Sucess")
-//            } else if let error = error {
-//              print(error)
-//            }
-//        }
     }
     
 }// End of class

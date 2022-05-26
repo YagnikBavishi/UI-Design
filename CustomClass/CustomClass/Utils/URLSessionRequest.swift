@@ -10,41 +10,34 @@ import Foundation
 class URLSessionRequest {
     
     //MARK : - Static Functions
-    static func urlSessionRequest<T:Decodable>(url: String, method: String, body: Data, decodingType: T.Type, completion handler: @escaping (Swift.Result<Data?, Error>) -> Void) {
+    static func urlSessionRequest<T:Decodable>(url: String, method: String, body: Data, decodingType: T.Type, completion handler: @escaping (Result<T, ErrorDataClass>) -> Void) {
         if let url = URL(string: url) {
             var urlRequest = URLRequest(url: url)
             urlRequest.httpMethod = method
             urlRequest.httpBody = body
             urlRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
-            urlRequest.addValue("application/json", forHTTPHeaderField: "Accept")
             
             let dataTask = URLSession.shared.dataTask(with: urlRequest) { (data, urlResponse, error) in
                 guard let responseData = data else {
                     return
                 }
-                
-                //, completion handler: @escaping (Swift.Result<(), Error>) -> Void
-                
+         
                 if let response = urlResponse as? HTTPURLResponse {
                     if((200 ..< 299) ~= response.statusCode) {
                         do {
-                            let decoder = JSONDecoder()
-                            let userResponse = try decoder.decode(T.self, from: responseData)
-                            if urlResponse != nil {
-                                handler(.success(userResponse))
-                            }
-                            
-                            //handler(userResponse)
+                            let userResponse = try JSONDecoder().decode(T.self, from: responseData)
+                            handler(.success(userResponse))
                         } catch let error {
-                            print("Error...\(error.localizedDescription)")
+                            handler(.failure(ErrorDataClass(error: error.localizedDescription)))
                         }
-                        
                     } else {
-                        if let error = error {
-                            handler(.failure(error.localizedDescription as! Error ))
+                        do{
+                            let errorResponse =  try JSONDecoder().decode(ErrorDataClass.self, from: responseData)
+                            handler(.failure(ErrorDataClass(error: errorResponse.error)))
                         }
-                       
-                        //handler(nil, "Error" as? T)
+                        catch let error {
+                            handler(.failure(ErrorDataClass(error: error.localizedDescription)))
+                        }
                     }
                 }
             }

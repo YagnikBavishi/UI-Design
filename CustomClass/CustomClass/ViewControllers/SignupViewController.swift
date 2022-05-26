@@ -18,6 +18,7 @@ class SignupViewController: UIViewController {
     
     // MARK: - Variables
     var coordinator: SignupCoordinator?
+    var user = UserLogin(email: "", password: "")
     
     // MARK: - UIViewController
     override func viewDidLoad() {
@@ -46,7 +47,24 @@ class SignupViewController: UIViewController {
     }
     
     @IBAction func goToProfileScreen(_ sender: Any) {
-        coordinator?.goToProfileVC()
+        user.email = txtEmail.text ?? ""
+        user.password = txtPassword.text ?? ""
+        guard let json = try? JSONEncoder().encode(user) else {
+            return
+        }
+        URLSessionRequest.urlSessionRequest(url: "https://reqres.in/api/register", method: "POST", body: json, decodingType: ResponseData.self) { data in
+            switch data {
+            case .success(_):
+                DispatchQueue.main.async {
+                    self.alerts(title: "Success", message: "")
+                }
+            case .failure(let errorMessage):
+                DispatchQueue.main.async {
+                    self.alerts(title: "Error", message: "\(errorMessage.error)")
+                }
+            }
+        }
+        //coordinator?.goToProfileVC()
     }
     
 }// End of class
